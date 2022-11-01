@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    color: green;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+}
+h3{
+    color: brown;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    grid-column-gap: 40px;
+    padding: 30px 20px;
+    grid-row-gap: 40px;
+
+}
+.item img {
+    width: 100%;
+    height: 400px;
+    object-fit:cover;
+    cursor:pointer;
+    transition: 0.1s ease;
+
+}
+.item img:hover{
+    transform: scale(1.09);
+}
